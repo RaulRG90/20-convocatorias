@@ -23,6 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ConvocatoridosComponent } from './convocatoridos/convocatoridos.component';
 import { BraileComponent } from './braile/braile.component';
 import { ScrollTopComponent } from './componentes/scroll-top/scroll-top.component';
+import { ConvocatoriatresComponent } from './convocatoriatres/convocatoriatres.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ScrollTopComponent } from './componentes/scroll-top/scroll-top.componen
     ConvocatoriaunoComponent,
     ConvocatoridosComponent,
     BraileComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    ConvocatoriatresComponent
   ],
   imports: [
     BrowserModule,
