@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BraileComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    document.getElementById('accessibility').style.display = "block";
+   }
 
   ngOnInit(): void {
+  }
+  apagar(){
+    document.getElementById('accessibility').style.display = "none";
   }
 
 }
